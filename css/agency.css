@@ -28,13 +28,20 @@ a.active {
   outline: none;
 }
 a {
-  color: #89393c;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;  
+  color: white;
+  text-shadow: 2px 2px black;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
   color: #89393c;
+  font-weight: bold;
+  text-decoration-line:none; 
+  text-shadow: none;
 }
 h1,
 h2,
@@ -151,18 +158,21 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
-}
-.navbar-custom .navbar-brand {
-  color: white;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  height:15vh;
 
 }
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
+.navbar-custom .navbar-brand.active,
+.email:hover,
+.linkedin:hover,
+.github:hover
+ {
   color: #89393c;
   letter-spacing: 1px;
+  text-shadow: none;
 
 }
 .navbar-custom .navbar-collapse {
@@ -203,14 +213,37 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #89393c;
 }
+
+.site-links{
+  display: flex !important;
+margin-top: -45px;
+}
+.email{
+   height: 20vh;
+  width:50px;
+  margin-left: -25px;
+}
+.linkedin{
+   height: 20vh;
+  width:50px;
+  margin-left:30px;
+}
+.github{
+   height: 20vh;
+  width:50px;
+  margin-left: 30px;
+}
+
+
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    background-color:#222222;
     padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
+      -webkit-transition: padding 0.3s; 
+     -moz-transition: padding 0.3s; 
+     transition: padding 0.3s;  
     border: none;
+    height:12vh;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
