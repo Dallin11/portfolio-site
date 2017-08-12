@@ -58,6 +58,7 @@ h6 {
 }
 .bg-light-gray {
   background-color: #eeeeee;
+  height: 80vh;
   
 }
 .bg-darkest-gray {
@@ -219,9 +220,10 @@ fieldset[disabled] .btn-xl.active {
 margin-top: -45px;
 }
 .email{
-   height: 20vh;
+   height: 6vh;
   width:50px;
   margin-left: -25px;
+  background-color: white;
 }
 .linkedin{
    height: 20vh;
@@ -229,9 +231,12 @@ margin-top: -45px;
   margin-left:30px;
 }
 .github{
-   height: 20vh;
-  width:50px;
-  margin-left: 30px;
+     height: 6vh;
+    width: 43px;
+    margin-left: 30px;
+    border-radius: 34px;
+    background-color: white;
+    padding-bottom: 1px;
 }
 
 
@@ -335,7 +340,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 70px 0;
   }
 }
 .service-heading {
@@ -403,18 +408,22 @@ section h3.section-subheading {
   z-index: 2;
 }
 .projects-description-button{
-  width: 200px;
-  height: 10vh;
+  width: 170px;
+  height: 5vh;
   border-radius: 10px;
   background-color:#89393c;
+  color: white;
 }
 .projects-description-button:hover{
     background-color: #89393c;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black;
 }
 
 .projects-hover-content{
   display: flex;
   justify-content: center;
+  padding-top: 7px;
 }
 
 @media (min-width: 767px) {
@@ -432,11 +441,11 @@ section h3.section-subheading {
     font-size:45px;
 }
 .skills{
-      padding-top: 50px;
+      padding-top: 80px;
 }
 
 .svg-icon{
-     height: 25vh;
+     height: 18vh;
     width: 228px;
 }
 
