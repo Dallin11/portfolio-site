@@ -56,6 +56,20 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
+
+.link-text{
+
+}
+.middle-link{
+  
+}
+.projects-link:hover .img-responsive{
+  opacity: 0.3;
+}
+.projects-link:hover .middle-link{
+  opacity: 1;
+}
+
 .bg-light-gray {
   background-color: #eeeeee;
   height: 80vh;
@@ -216,8 +230,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .site-links{
-  display: flex !important;
 margin-top: -45px;
+height:6px;
 }
 .email{
    height: 6vh;
