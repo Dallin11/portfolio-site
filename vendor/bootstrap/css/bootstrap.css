@@ -1163,6 +1163,57 @@ margin-bottom: 21px;
   border-radius: 10px;
 }
 
+
+.about-img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+
+   display: block;
+  width: 100%;
+  height: auto;
+  z-index: -9000;
+}
+
+.about-section{
+  height: auto;
+  width: 100%;
+}
+.about-middle{
+}
+
+.about-section:hover .about-img{
+    opacity: 0.3;
+}
+
+.about-section:hover .about-text{
+  opacity: 1;
+}
+
+.about-text{
+ position: absolute;
+  background-color: #89393c;
+  color: white;
+  height: 25vh;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 246px;
+  margin-top: -550px;
+  transition: .5s ease;
+  opacity: 0;
+  border: black;
+}
+
+
+
+
+
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -1501,6 +1552,8 @@ dt {
 dd {
   margin-left: 0;
 }
+
+
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
