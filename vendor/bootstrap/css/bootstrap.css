@@ -1129,6 +1129,10 @@ img {
   backface-visibility: hidden;
 }
 
+.personal-proj-link{
+  padding-bottom: 10px
+}
+
 .img-responsive{
    opacity: 1;
   display: block;
@@ -1146,7 +1150,11 @@ margin-bottom: 21px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 .img-project-cont:hover .img-responsive{
   opacity: 0.3;
